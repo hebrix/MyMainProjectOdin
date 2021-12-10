@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity2">
+
+
+    <LinearLayout
+        android:background="@color/lightCyan"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:fontFamily="@font/montserrat">
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/btn_back"
+            android:textColor="@color/line_under"
+            android:layout_marginRight="250sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="20sp"
+            android:text="Back" />
+
+        <TextView
+            android:id="@+id/city_wear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:text="Moscow: -13 C\nSt. Petersburg: -15 C\nKiev: -9 C\nNovosibirsk: -12 C\nTomsk: -13 C"
+            android:textAlignment="center"
+            android:layout_marginTop="19sp"
+            android:textColor="@color/textColorHint"
+
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/img_mos"
+            android:layout_width="match_parent"
+            android:layout_height="271dp"
+            android:layout_marginTop="20sp"
+            app:srcCompat="@drawable/russia_png14" />
+
+        <Button
+            android:id="@+id/btn_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="90sp"
+            android:text="More\n about the programmer"
+            android:fontFamily="@font/montserrat"
+            android:textSize="13sp"
+            app:backgroundTint="#0363F4" />
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

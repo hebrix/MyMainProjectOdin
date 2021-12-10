@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyMainProject</string>
+    <string name="logo">Application "Weather in the World"</string>
+    <string name="logo2">Weather in your city</string>
+    <string name="hint_user_field">Write your city</string>
+    <string name="btn_main">Find out the weather</string>
+    <string name="no_user_input">Write text</string>
+    <string name="btn_next">Next</string>
+
+
+</resources>
